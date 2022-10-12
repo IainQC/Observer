@@ -1,5 +1,5 @@
 public class Message {
-    String messageContent;
+    private String messageContent;
 
     public Message() {
     }

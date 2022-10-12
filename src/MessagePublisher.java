@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class MessagePublisher {
+public class MessagePublisher implements Observable {
     List<Observer> observers = new ArrayList<>();
 
     public void attach(Observer o){
